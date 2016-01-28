@@ -1,0 +1,66 @@
+body{
+    /*padding: 20px;*/
+    text-align: center;
+}
+
+.jumbotron {
+	position: relative;
+    background-image: url("color3.jpg");
+   /* margin-left: 15em;
+    margin-right: 15em;*/
+    padding: 30px;
+}
+
+.jumbotron h1{
+    color: #222222;
+    font-size: 300%;
+}
+
+.navbar {
+    /*margin-left: 20em;
+    margin-right: 20em;*/
+    background-color: darkorange;
+}
+
+li {
+    display: inline-block;
+    font-size: 30px;
+    border-right: 1px solid #bbbbbb;
+}
+
+.navbar a{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar a:hover{
+    background-color: white;
+}
+
+#active{
+    background-color: firebrick;
+}
+
+.thumbnail {
+    margin-left: 40em;
+    margin-right: 40em;
+}
+
+.sign-in{
+    position: relative;
+}
+
+.sign-in h2{
+    margin-top: 1em;
+}
+.sign-in label{
+    font-weight: bold;
+}
+
+#password {
+    margin-top: 20px;
+}
+.new-user {
+    margin-top: 30px;
+    cursor: pointer;
+}
